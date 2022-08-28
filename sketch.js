@@ -1,20 +1,25 @@
 rishi = {
   "username": "rishi",
   "password": "rishi",
-  "rank": 2,
+  "sr": 69420,
+  "sd": 0,
   "banned": false
 }
 
 bach = {
   "username": "bach",
   "password": "bach",
-  "rank": 1
+  "sr": 69420,
+  "sd": 0,
+  "banned": false
 }
 
 daniel = {
   "username": "daniel",
   "password": "daniel",
-  "rank": 1
+  "sr": 69420,
+  "sd": 0,
+  "banned": false
 }
 
 function setup() {
@@ -39,7 +44,7 @@ function setup() {
   loginButton = createButton("Log in")
   loginButton.position(0, 270)
   loginButton.mousePressed(login)
-
+  
   rishiRankMessage = createElement("h2", "Welcome, Rishi, to your Sus Inc. Portal. Your rank is Replacement CEO, or rank 2.")
   rishiRankMessage.position(-100, -100);
 
